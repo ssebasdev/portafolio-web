@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi portafolio | Sebastian Sanchez</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Top Navigation Bar -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">ssebas-dev</div>
+                <ul class="nav-menu">
+                    <li><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                    <li><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+                <button class="btn-resume">Currículum</button>
+            </div>
+        </nav>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="section-container hero-section" id="sobre-mi">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hola, mi nombre es</p>
+                    <h1 class="hero-title">Sebastian Sanchez.</h1>
+                    <h2 class="hero-subtitle">Construyo experiencias y productos digitales escalables.</h2>
+                    <p class="hero-description">
+                        Soy un desarrollador Full-Stack con formación técnica en Ciberseguridad y estudiante de Ingeniería de Sistemas. Me apasiona transformar ideas en código limpio, seguro y eficiente, especializándome en aplicaciones web modernas, automatización de procesos e integración de sistemas.
+                    </p>
+                    <a class="btn-cta" href="#proyectos">Ver mi trabajo</a>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section-container" id="proyectos">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="section-number">01.</span> Algunas cosas que he construido</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="card-project">
+                        <div class="card-project-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+                            </svg>
+                            <div class="project-icons">
+                                <a href="https://github.com/ssebas-dev" target="_blank" aria-label="Ver código en GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Ver demo del proyecto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+                                        <path d="M11 13l9 -9" />
+                                        <path d="M15 4h5v5" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="card-project-title">Notificador Inteligente de Recibos</h3>
+                        <p class="card-project-description">
+                            Sistema que monitorea facturas de servicios públicos (agua, luz, gas). Utiliza IA (Gemini API) y OCR para extraer resúmenes automáticamente y notifica alertas de vencimiento directo a Telegram antes de la fecha límite.
+                        </p>
+                        <ul class="list-technologies">
+                            <li>Node.js</li>
+                            <li>Gemini AI</li>
+                            <li>Telegram Bot API</li>
+                            <li>PostgreSQL</li>
+                            <li>Docker</li>
+                        </ul>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="card-project">
+                        <div class="card-project-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M5 4h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-11a2 2 0 0 1 2 -2" />
+                            </svg>
+                            <div class="project-icons">
+                                <a href="https://github.com/ssebas-dev" target="_blank" aria-label="Ver código en GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+                                    </svg>
+                                </a>
+                                <a href="#" aria-label="Ver demo del proyecto">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+                                        <path d="M11 13l9 -9" />
+                                        <path d="M15 4h5v5" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="card-project-title">Notificador de Citas EsSalud</h3>
+                        <p class="card-project-description">
+                            Sistema de monitoreo automático que verifica continuamente la disponibilidad de citas médicas por especialidad. Envía notificaciones instantáneas a Telegram al detectar cupos libres para que el usuario pueda ingresar a reservar.
+                        </p>
+                        <ul class="list-technologies">
+                            <li>Node.js</li>
+                            <li>Telegram Bot API</li>
+                            <li>Cron Jobs</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Experience Section -->
+            <section class="section-container" id="experiencia">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="section-number">02.</span> Dónde he trabajado</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="experience-container">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h3 class="job-title">Desarrollador Full-Stack <span class="company">@Freelance</span></h3>
+                            <p class="job-period">2026 - Presente</p>
+                            <ul class="job-tasks">
+                                <li>Diseño y desarrollo de soluciones web a medida, automatización de procesos e integración de servicios API para clientes particulares y empresas.</li>
+                                <li>Implementación de sistemas inteligentes con IA (Gemini API), bots de notificaciones e infraestructura backend containerizada.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h3 class="job-title">Desarrollador Web Junior <span class="company">@cnch</span></h3>
+                            <p class="job-period">2024 - 2025</p>
+                            <ul class="job-tasks">
+                                <li>Implementación de aplicaciones web para varios proyectos utilizando HTML, CSS y JavaScript.</li>
+                                <li>Colaboración con diseñadores y otros desarrolladores para crear interfaces de usuario atractivas y funcionales.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <h3 class="job-title">Practicante de Ciberseguridad y Redes <span class="company">@Polux</span></h3>
+                            <p class="job-period">2023 - 2024</p>
+                            <ul class="job-tasks">
+                                <li>Configuración y administración de reglas de Firewall e implementación de conexiones VPN seguras.</li>
+                                <li>Gestión de dispositivos y soluciones de seguridad perimetral de marcas como Fortinet y Hillstone.</li>
+                                <li>Aplicación de buenas prácticas de seguridad informática y soporte en infraestructura de red.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section class="section-container contact-section" id="contacto">
+                <p class="hero-greeting">03. ¿Qué sigue?</p>
+                <h2 class="hero-title">Ponte en contacto</h2>
+                <p class="hero-description">
+                    Actualmente estoy disponible para proyectos freelance, colaboraciones o consultas técnicas. Si tienes una idea que quieras hacer realidad o necesitas automatizar tus procesos, ¡mi bandeja de entrada está abierta!
+                </p>
+                <form class="contact-form" id="form-contact" action="https://formspree.io/f/mqpzlnzb" method="POST">
+                    <div class="form-group">
+                        <label class="form-label" for="nombre">Nombre</label>
+                        <input class="form-input" type="text" name="name" id="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Correo electrónico</label>
+                        <input class="form-input" type="email" name="email" id="email" placeholder="tu-email@ejemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="mensaje">Mensaje</label>
+                        <textarea class="form-textarea" name="message" id="mensaje" placeholder="Hola Sebastian, me gustaría conversar sobre..." required></textarea>
+                    </div>
+                    <button class="btn-submit" type="submit">Enviar mensaje</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-container">
+                <p class="footer-copy">&copy; 2026 ssebas-dev. Todos los derechos reservados.</p>
+                <div class="list-social-media">
+                    <a href="https://github.com/ssebas-dev" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://www.linkedin.com/in/ssebas-dev" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="mailto:scsebastian1406@gmail.com">Correo</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
